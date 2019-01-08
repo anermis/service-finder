@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://dmng.cv24g4w4ewep.eu-west-1.rds.amazonaws.com:3306/dnmgdb</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <mapping class="model.VerificationTokenEntity"/>
+    <mapping class="model.UserEntity"/>
+    <mapping class="model.AddressEntity"/>
+    <mapping class="model.PhoneEntity"/>
+    <mapping class="model.ProfessionsEntity"/>
+    <mapping class="model.MessageEntity"/>
+    <mapping class="model.ServiceEntity"/>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
