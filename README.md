@@ -1,2 +1,2 @@
 # service-finder
-the online web-site has some errors! It will be soon fixed.
+the online web-site has some issues ! It will be soon fixed.
